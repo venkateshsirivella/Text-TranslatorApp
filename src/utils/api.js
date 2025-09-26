@@ -4,7 +4,7 @@ import axios from 'axios';
 const rapidAPI = axios.create({
   baseURL: 'https://google-translate1.p.rapidapi.com/language/translate/v2',
   headers: {
-    'X-RapidAPI-Key': import.meta.env.VITE_RAPIDAPI_KEY, // ONLY use .env value
+    'X-RapidAPI-Key': import.meta.env.VITE_RAPIDAPI_KEY,
     'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com',
     'Content-Type': 'application/x-www-form-urlencoded'
   }

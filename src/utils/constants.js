@@ -49,7 +49,7 @@ export const LANGUAGES = [
   { code: 'as', name: 'Assamese' }
 ];
 
-// Default character sets for random string generation
+
 export const CHARACTER_SETS = {
   UPPERCASE: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
   LOWERCASE: 'abcdefghijklmnopqrstuvwxyz',
