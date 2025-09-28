@@ -47,15 +47,15 @@ export const LANGUAGES = [
   { code: 'pa', name: 'Punjabi' },
   { code: 'or', name: 'Odia' },
   { code: 'as', name: 'Assamese' }
-];
+]
 
-
+// Default character sets for random string generation
 export const CHARACTER_SETS = {
   UPPERCASE: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
   LOWERCASE: 'abcdefghijklmnopqrstuvwxyz',
   NUMBERS: '0123456789',
   SYMBOLS: '!@#$%^&*()_+-=[]{}|;:,.<>?'
-};
+}
 
 // Default options for random string generator
 export const DEFAULT_GENERATOR_OPTIONS = {
@@ -65,14 +65,14 @@ export const DEFAULT_GENERATOR_OPTIONS = {
   includeNumbers: true,
   includeSymbols: false,
   customCharacters: ''
-};
+}
 
-// API configuration - UPDATED for Google Translate RapidAPI
+// API configuration
 export const API_CONFIG = {
-  RAPIDAPI_BASE_URL: 'https://google-translate1.p.rapidapi.com/language/translate/v2',
-  RAPIDAPI_HOST: 'google-translate1.p.rapidapi.com',
-  TRANSLATION_API_VERSION: '' // Not used in Google Translate API v2 on RapidAPI, so left empty
-};
+  RAPIDAPI_BASE_URL: 'https://microsoft-translator-text.p.rapidapi.com',
+  RAPIDAPI_HOST: 'microsoft-translator-text.p.rapidapi.com',
+  TRANSLATION_API_VERSION: '3.0'
+}
 
 // Application constants
 export const APP_CONFIG = {
@@ -80,4 +80,4 @@ export const APP_CONFIG = {
   MAX_HISTORY_ITEMS: 10,
   ANIMATION_DELAY: 300,
   COPY_FEEDBACK_DURATION: 2000
-};
+}
